@@ -1,3 +1,7 @@
+#include "std_lib_facilities.h"
+
+int main()
+{
 try{
 //1
 cout << "Success!\n"; 	//nem Cout, hanem cout
@@ -55,4 +59,5 @@ catch(exception& e)
 	cerr<<"error: "<<e.what();
 	keep_window_open();
 	return 1;
+}
 }
